@@ -1,5 +1,6 @@
 #include "Arduino.h"
 #include "OBD9141.h"
+#include "AltSoftSerial.h"
 
 /**
  * This example polls the 0x00 PID in mode 01, this retrieves a bitmask
@@ -9,9 +10,9 @@
 
 // OBD connections, you likely have to modify these.
 // Tested on Teensy, pins are alternates.
-#define RX_PIN 21
-#define TX_PIN 5
-#define EN_PIN 17
+#define RX_PIN 21 
+#define TX_PIN 5. 
+#define EN_PIN 17 
 #define OBD_SERIAL Serial1
 
 OBD9141 obd;
